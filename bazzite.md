@@ -14,6 +14,11 @@ Than I wanted the system to directly boot to desktop without the hassle of login
 Next: Mounting my Data NVME as /home/Data folder:
 --ToDO: instructions on that
 Steam pointing to my SteamLibrary
+
+Undervolting with CoreCtl
+HOW TO INSTALL RPMS?!
+--ToDo: instructions
+
 All fine and to my likings BUT...
 Sleep doesnt work -> Solution still to be found -> Black Screen - no idea whats happening here
 What is not working: GRUB options amd_immo=off etc...
