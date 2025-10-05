@@ -19,6 +19,8 @@ Undervolting with CoreCtl
 HOW TO INSTALL RPMS?!
 --ToDo: instructions
 
+GRUB: boot to last chosen one (better for updates)
+
 All fine and to my likings BUT...
 Sleep doesnt work -> Solution still to be found -> Black Screen - no idea whats happening here
 What is not working: GRUB options amd_immo=off etc...
