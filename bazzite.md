@@ -15,12 +15,15 @@ Next: Mounting my Data NVME as /home/Data folder:
 --ToDO: instructions on that
 Steam pointing to my SteamLibrary
 
-Undervolting with CoreCtl
+Undervolting with CoreCtl -> reminder: performance mode should be automatic or not controlled (had it on low performance by accident which gave really low fps)
 HOW TO INSTALL RPMS?!
 --ToDo: instructions
+
+Reminder: SetUp BT Headset properly with audio output only otherwise game sound is trashy. Use external mic for Input in Discord etc.
 
 GRUB: boot to last chosen one (better for updates)
 
 All fine and to my likings BUT...
 Sleep doesnt work -> Solution still to be found -> Black Screen - no idea whats happening here
 What is not working: GRUB options amd_immo=off etc...
+List all things I tried
