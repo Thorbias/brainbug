@@ -15,6 +15,8 @@ Next: Mounting my Data NVME as /home/Data folder:
 --ToDO: instructions on that
 Steam pointing to my SteamLibrary
 
+Installign Synology drive and pointing it to my /home/Data directory which is apperently to so obvious as the synology drive path selection is showing my root. So the path was /var/home/myuser/Data (took me a bit to figure this out - yeah I am not a Linux pro but again that is not very obvious as pwd prints /home/myuser/Data...)
+
 Undervolting with CoreCtl -> reminder: performance mode should be automatic or not controlled (had it on low performance by accident which gave really low fps)
 HOW TO INSTALL RPMS?!
 --ToDo: instructions
@@ -26,4 +28,9 @@ GRUB: boot to last chosen one (better for updates)
 All fine and to my likings BUT...
 Sleep doesnt work -> Solution still to be found -> Black Screen - no idea whats happening here
 What is not working: GRUB options amd_immo=off etc...
+GRUB_CMDLINE_LINUX_DEFAULT="acpi_osi=!Windows 2015"
+turning off PCI devices that might cause trouble with sleep...
 List all things I tried
+
+Turns out it was directly related to my settings in coreCTL which also caused the poor performance -.- -> learning: either set performance mode to automatic or off...
+Just found the problem by taking it piece by piece and shutting down all other services/apps that I installed which where running in the background like steam, synology and coreCTL... Again it was a pure use fault and Bazzite is doin fine. Now I am happy and I really like the look and feel of Bazzite!
