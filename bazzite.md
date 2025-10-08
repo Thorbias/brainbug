@@ -5,6 +5,24 @@ Eventually I went for Bazzite because I liked the look and the package manager o
 Unfortunately Bazzite was a bit shy and didn't wanted to override my previous Fedora Installation. Actually the trouble was with Grub and I had to remove Grub before I could install Bazzite.
 I found a pretty nice installation guide covering the following steps from within a running windows to clear grub (of course I wiped my fedora before I did realize that I had to clean grub as well...).
 --TODO: Put the Steps here
+
+
+        Run a cmd.exe process with administrator privileges
+        Run diskpart
+        Type: list disk then sel disk X where X is the drive your boot files reside on
+        Type list vol to see all partitions (volumes) on the disk (the EFI volume will be formatted in FAT, others will be NTFS)
+        Select the EFI volume by typing: sel vol Y where Y is the SYSTEM volume (this is almost always the EFI partition)
+        For convenience, assign a drive letter by typing: assign letter=Z: where Z is a free (unused) drive letter
+        Type exit to leave disk part
+        While still in the cmd prompt, type: Z: and hit enter, where Z was the drive letter you just created.
+        Type dir to list directories on this mounted EFI partition
+        If you are in the right place, you should see a directory called EFI
+        Type cd EFI and then dir to list the child directories inside EFI
+        Type rmdir /S ubuntu to delete the ubuntu boot directory
+
+
+
+
 After that the installation from a bootable USB Stick was straigt forward and did take round about 15 minutes until I got to touch the bazzite desktop.
 First I checked system update and let it do its magic.
 Afterwards I started to make the desktop feel comfy by resizing the task bar and installing another app launcher:
