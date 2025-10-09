@@ -3,3 +3,5 @@ Two years ago Telkom installed FTTH in our house and offered a two year contract
 
 Technically the switch was super simple. Actually I was a bit nervous if I what strand inbetween Telekom and 1&1 without a reliable internet for several days. But to my suprise the switch was almost seamless with only one click that I had to do - ok maybe a bit more but really really simple.
 I could reuse my Telekom Glasfaser Modem 2 without any changes to the configuration. On the day of the ISP switch I had to insert my Modem ID in a 1&1 webpage. And in my Fritzbox 7530AX I only had to change one single parameter: the internet provider from Telekom to 1&1. That's it! 
+
+Afterwards I had some strange hick ups in my ethernet based connection from my dual-booat windows/bazzite set up. On both systems my Realtek GBE network interface was set as 100Mbit and thus really limited to 100Mbit speed on my test. After resetting my network stuff (Fritzbox, Switch etc.) everything got back to normal. So no need for driver updates etc. this time - puh.
