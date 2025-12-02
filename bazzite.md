@@ -52,3 +52,6 @@ List all things I tried
 
 Turns out it was directly related to my settings in coreCTL which also caused the poor performance -.- -> learning: either set performance mode to automatic or off...
 Just found the problem by taking it piece by piece and shutting down all other services/apps that I installed which where running in the background like steam, synology and coreCTL... Again it was a pure use fault and Bazzite is doin fine. Now I am happy and I really like the look and feel of Bazzite!
+
+Current Issue: No Voice Output in Discord!
+A strange bug occured out of nowhere. Discord voice output just stopped working. No matter which output device or headset I am using. Other users can still hear me. The voice check also does not give any output but shows mic activity. All system and other discord sounds like notifications and also ingame sound is working properly. Until now I could not find the root cause. But using Discord on the browser just works fine. Also under windows there are no issues with the discord client. I de-installed and re-installed the discord flathub client without success. For now I am moving to webcord client which works like the web client just fine. Only downside: I have no custom keybindings.
