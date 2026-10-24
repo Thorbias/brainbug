@@ -1,5 +1,7 @@
 ---
 title: "Thoughts about the Razer Pro Click v2 in comparison to the Razer Pro Click v1"
+tags: [Gadgets]
+description: "My beloved Razer Pro Click v1 is wearing out, so I tried the v2 - and ran into a real no-go with Synapse 4 and button remapping on macOS."
 ---
 
 ## Intro

@@ -6,14 +6,12 @@ lang: en
 baseurl: /brainbug
 url: https://thorbias.github.io
 
-theme: minima
+# Use our own layouts/CSS, not the GitHub Pages default theme.
+theme: null
+
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-
-show_excerpts: true
-minima:
-  date_format: "%b %-d, %Y"
 
 # Every file in _posts/ automatically gets the post layout,
 # so new articles only need a title in their front matter.
