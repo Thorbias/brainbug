@@ -1,4 +1,6 @@
-# Thoughts about the Razer Pro Click v2 in comparison to the Razer Pro Click v1
+---
+title: "Thoughts about the Razer Pro Click v2 in comparison to the Razer Pro Click v1"
+---
 
 ## Intro
 As my beloved Razer Pro Click - the original version - slowly wears out and seems to reach the end of it's life. This is kind of a tragedy for me as this is by far the best mouse I have ever used - and Razer stopped producing it.

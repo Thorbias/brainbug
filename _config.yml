@@ -1,0 +1,28 @@
+title: brainbug
+description: A place to hold all my thoughts about tech, gadgets and other stuff.
+lang: en
+
+# Set to "/brainbug" when served from https://<user>.github.io/brainbug
+baseurl: /brainbug
+url: https://thorbias.github.io
+
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+show_excerpts: true
+minima:
+  date_format: "%b %-d, %Y"
+
+# Every file in _posts/ automatically gets the post layout,
+# so new articles only need a title in their front matter.
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+
+exclude:
+  - README.md
