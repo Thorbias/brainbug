@@ -1,6 +1,6 @@
 ---
 title: "Ascaso Steel Duo PID mod v3"
-published: false
+published: true
 img: /assets/images/ascaso-v3-mod
 tags: [Coffee]
 description: "Inspired by a reddit post I moded my espresso machine and created a guide a long the way."
