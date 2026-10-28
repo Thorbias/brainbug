@@ -52,7 +52,7 @@ Be prepared to see a mess ;-) I was suprised by the density and amount of cables
 ![Overview]({{ page.img | relative_url }}/ascaso-v3-mod-0.jpeg)
 *3. looking inside the machine*
 
-You will be working on (1) OPV return hose and (3) FLow meter and you need to unscrew (7)
+You will be working on (1) OPV return hose and (3) Flow meter and you need to unscrew (7)
 
 ### Getting a little more space to work inside your machine
 As everything is packed in very little space you will most probably have a hard time getting your hands in there. At least I had. And as I am also not a professional espresos machine engineer I didn't dare to remove to many parts. So I just unscrewed the plate which seperates the water tank from the inner electronics. There is one screw inside the machine (you can see it on the overview tagged with 7) and one on the outside. That's it. Than you can carefully pull up that plate a little bit and than it should get loose. On the right side of it there is some more electronics attached. Just leave it be and move the plate a bit more to the backside of the machine. This should give you just about enough room to work inside the machine without breaking your fingers.
@@ -136,6 +136,6 @@ You made it! Congratulations on your v3 mod for your Asacso Steel Duo PID. Now i
 *12. Enjoy your coffee*
 
 ### Final thoughts
-After the mod you should dial in your espresso again. For the last two weeks I measured every shot from the machine and it was giving me very constant results. I measured the amount of espresso with a scale and two cups as I almost always are making two cappuccino for my wife and me. I dialed it in at 18g in and 45g out for two cups. The variance was +/- 2g reaching from 43g to 47g. I think that is a prett nice result compared to where I started.
+After the mod you should dial in your espresso again. For the last two weeks I measured every shot from the machine and it was giving me very constant results. I measured the amount of espresso with a scale and two cups as I am almost always making two cappuccino for my wife and me. I dialed it in at 18g in and 45g out for two cups. The variance was +/- 2g reaching from 43g to 47g. I think that is a prett nice result compared to where I started.
 
 Being a barista is a craft, and coffee is a natural product. I am by no means a barista, but I love good coffee. But results vary as beans are diffent and a lot of factors influence your result. A professional barista with professinol equipment can handle that. But I had to get rid of as many varying factors as I could. And still the beans age, the remaining coffee powder in the machine has influnce on your result and air humidty, the presure you put on the tamper - and maybe even the moon ;-) all influence the espresso you get. But after this mod I get the best espresso I can get at my home and I couldn't be happier - enjoy your coffe :-)
